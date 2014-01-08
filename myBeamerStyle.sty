@@ -1,0 +1,39 @@
+\ProvidesPackage{myBeamerStyle}
+\typeout{My own custom style for Beamer slides}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{xspace}
+
+\usepackage{palatino}
+% Theme
+\usetheme{Copenhagen}
+\useinnertheme{rounded}
+\usefonttheme{structurebold}
+
+\usepackage{graphics}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage{eurosym}
+\usepackage{fancybox}
+
+\definecolor{myblue}{RGB}{37, 108, 164}
+\definecolor{mygray}{RGB}{73,73,73}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% beamer options                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\beamertemplateballitem
+\setbeamercovered{invisible}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamertemplate{headline}{}
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{structure}{fg=mygray}
+
+\newcommand{\vspacing}{\vspace*{5pt}}
+\newcommand{\git}{\textit{git}\xspace}
+
+\endinput
