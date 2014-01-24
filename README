@@ -1,0 +1,16 @@
+Git: Best Practices
+====================
+
+This is a presentation about best practices in git with some
+advices on how certain things should, and should not, be done.
+
+Some slides and diagrams are based in the "Git: The Stupid Content Tracker"
+presentation by Mario Sánchez Prada:
+https://github.com/mariospr/git-the-stupid-content-tracker
+
+License
+========
+
+This presentation is distributed under the terms of the
+Creative Commons Attribute-ShareAlike 4.0:
+http://creativecommons.org/licenses/by-sa/4.0/
